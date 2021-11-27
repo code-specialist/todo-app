@@ -13,6 +13,7 @@ interface IProps {
 const TaskListComponent: React.FC<IProps> = ({tasks, setTasks}) => {
     return (
         <Container>
+            
             <hr/>
             <h2 className={"display-4"}>Tasks</h2>
             {
